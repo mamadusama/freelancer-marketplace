@@ -116,5 +116,5 @@ EMAIL_HOST = "smtp.gmail.com"  # Servidor SMTP do seu provedor de e-mail
 EMAIL_PORT = 587  # Porta padrão para TLS
 EMAIL_USE_TLS = True  # Usa criptografia TLS para segurança
 EMAIL_HOST_USER = config("EMAIL_HOST_USER")  # Seu e-mail
-EMAIL_HOST_PASSWORD = "ngpxipgmxtvnzzwh"  # Senha do seu e-mail (ou app password)
+EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
